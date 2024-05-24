@@ -1,10 +1,10 @@
+require('dotenv').config();
 
 const mongoose = require('mongoose');
 
 
 
-const MONGO_URI = process.env.MONGODB_URI || "mongodb+srv://torichu87:OVFaUPJN7R4XIRD1@cluster0.lucff1b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-
+const MONGO_URI = process.env.MONGODB_URI;
 
 
 
